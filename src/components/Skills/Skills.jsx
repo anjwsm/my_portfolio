@@ -1,6 +1,6 @@
 import React from 'react' ;
-import Languages from '../../data/language.json' ;
-import Experience from '../../data/experience.json' ;
+import Languages from '../../data/language' ;
+import Experience from '../../data/experience' ;
 import styles from './Skills.module.css'
 
 

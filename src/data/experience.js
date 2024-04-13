@@ -1,17 +1,24 @@
-[
+import opensource from '../assets/opensource.png' ;
+import coding from '../assets/coding.png' ;
+import ideas from '../assets/ideas.png' ;
+
+
+const Experience= [
     {
         "title" : "Open Source Contricution",
         "work" : "Actively contributed to open source projects like git hub projects and many more " ,
-        "imageSrc" : "../src/assets/opensource.png"
+        "imageSrc" : opensource
     },
     {
         "title" : "Competitive Programming",
         "work" : "Solved 100+ DSA questions in coding platform Geeks for Geeks " ,
-        "imageSrc" : "../src/assets/coding.png"
+        "imageSrc" : coding
     },
     {
         "title" : "Creative Problem Solving" ,
         "work" :"Whether it's optimizing performance or solving usability challenges, I thrive on finding elegant solutions that exceed expectations." ,
-        "imageSrc" :"../src/assets/ideas.png"
+        "imageSrc" : ideas 
     }
 ]
+
+export default Experience;
