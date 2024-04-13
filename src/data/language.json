@@ -1,0 +1,59 @@
+[
+{
+    "title" : "HTML" ,
+    "imageSrc" : "../src/assets/html.png"
+} ,
+{
+    "title" : "css" ,
+    "imageSrc" : "../src/assets/CSS.png"
+} ,
+{
+    "title" : "JavaScript" ,
+    "imageSrc" : "../src/assets/javascript.png"
+},
+{
+    "title" : "React" ,
+    "imageSrc" : "../src/assets/react.png"
+},
+{
+    "title" : "C" ,
+    "imageSrc" : "../src/assets/c.png"
+}, 
+{
+    "title" : "SQL" ,
+    "imageSrc" : "../src/assets/sql.png"
+},  
+{
+    "title" : "MongoDB" ,
+    "imageSrc" : "../src/assets/mongodb.png"
+},
+{
+    "title" : "ExpressJS" ,
+    "imageSrc" : "../src/assets/expressjs.png"
+},
+{
+    "title" : "Bootstrap" ,
+    "imageSrc" : "../src/assets/bootstrap.png"
+},
+{
+    "title" : "VS Code" ,
+    "imageSrc" :"../src/assets/vscode.png"
+},
+{
+    "title" : "Git Hub" ,
+    "imageSrc" :"../src/assets/github.png"
+},
+{
+    "title" : "Figma" ,
+    "imageSrc" :"../src/assets/figma.png"
+},
+{
+    "title" : "Canva" ,
+    "imageSrc" :"../src/assets/vscode.png"
+},
+{
+    "title" : "Adobe" ,
+    "imageSrc" :"../src/assets/adobe.png"
+}
+   
+]
