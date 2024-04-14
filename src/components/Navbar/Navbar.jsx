@@ -1,6 +1,6 @@
 import React,{useState} from 'react' ;
 import styles from "./Navbar.module.css" ;
-import logo from '../../assets/AKLogo.png/';
+import logo from '../../assets/logoak.png/';
 import close from  '../../assets/close.png/';
 import dropdown from  '../../assets/menubtn.png/';
 
