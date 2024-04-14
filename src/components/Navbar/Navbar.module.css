@@ -5,13 +5,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 61px;
+    padding-top: 2%;
     z-index: 2;
     margin: 0 8%;
 
 }
 .logo {
-    width: 170px;
+    width: 150px;
     height: 100px;
 }
 
@@ -39,6 +39,11 @@
     .navbar{
         flex-direction: column;
         align-items: flex-start;
+        margin: 0 3px ;
+    }
+    .logo {
+        width: 30%;
+        height: 15%;
     }
     .menu{
         position: absolute;
@@ -53,6 +58,8 @@
     .menuBtn {
         display: block;
         cursor: pointer;
+        width: 35px;
+        height: 30px;
     }
     .menuItems{
         display: none; 

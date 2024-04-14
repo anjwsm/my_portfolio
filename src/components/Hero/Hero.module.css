@@ -98,6 +98,16 @@
     .container{
        flex-direction: column-reverse;
     }
+    .title{
+        font-size: 50px;
+    }
+    .description {
+        font-size: 23px;
+        font-weight: lighter;
+    }
+    .heroImg{
+        margin-top: -13%;
+    }
     .content{
         align-items: center;
     }

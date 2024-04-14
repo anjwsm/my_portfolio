@@ -78,7 +78,7 @@
 }
 .experienceItemDetails h3 {
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 600;
 }
   
 .experienceItemDetails p {
@@ -86,21 +86,38 @@
     font-weight: 300;
 }
 @media screen and (max-width: 830px) {
+    .container{
+        margin-top: 30px;
+    }
     .content {
       flex-direction: column;
       align-items: center;
-      gap: 34px;
+      gap: 40px;
     }
+
   
     .languages {
       width: 100%;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: space-around;
+      padding: 10px;
     }
-  
+    .languageImageContainer{
+        width: 100px;
+        height: 100px;
+    }
+    .languageImageContainer img{
+        width: 63px;
+    }
     .experience {
       width: 100%;
       gap: 9px;
+    }
+    .experienceItemDetails h3 {
+        font-size: 28px;
+    }
+    .experienceItemDetails p{
+        font-weight: lighter;
     }
   }
   
