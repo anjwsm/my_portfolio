@@ -112,4 +112,9 @@
     .content{
         align-items: center;
     }
+    .contactBtn{
+        font-size: 25px;
+        font-weight: 450;
+        padding: 10px 20px;
+    }
 }

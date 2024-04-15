@@ -103,20 +103,22 @@
       padding: 10px;
     }
     .languageImageContainer{
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
     }
     .languageImageContainer img{
-        width: 63px;
+        width: 60px;
     }
     .experience {
       width: 100%;
       gap: 9px;
     }
     .experienceItemDetails h3 {
-        font-size: 28px;
+        font-size: 24px;
+        font-weight: 400;
     }
     .experienceItemDetails p{
+        font-size: 18px;
         font-weight: lighter;
     }
   }

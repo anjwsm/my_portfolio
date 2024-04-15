@@ -72,8 +72,12 @@
   .links {
     align-items: left;
   }
+  .link{
+    gap: 20px;
+  }
   .link a{
     font-size: 15px;
+   
   }
   .link img{
     width: 30px;
