@@ -5,7 +5,7 @@ import ideas from '../assets/ideas.png' ;
 
 const Experience= [
     {
-        "title" : "Open Source Contricution",
+        "title" : "Open Source Contribution",
         "work" : "Actively contributed to open source projects like git hub projects and many more " ,
         "imageSrc" : opensource
     },
