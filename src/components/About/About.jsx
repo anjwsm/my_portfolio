@@ -19,7 +19,7 @@ export const About = () => {
               <img src={fronticon} alt='fronticon'/>
                <div className={styles.aboutItemText}>
                  <h3>Frontend Developer</h3>
-                 <p>Armed with extensive knowledge of HTML, CSS, and JavaScript, I breathe life into designs, ensuring they not only look exceptional but also perform flawlessly across various devices and platforms. </p>
+                 <p>Armed with extensive knowledge of HTML, CSS,JavaScript and React, I breathe life into designs, ensuring they not only look exceptional but also perform flawlessly across various devices and platforms. </p>
                </div>
               </li>
               <li className={styles.aboutItem}>

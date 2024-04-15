@@ -3,6 +3,7 @@ import styles from './Contact.module.css'
 import email from '../../assets/message.png'
 import linkedin from '../../assets/linkedin.png'
 import github from '../../assets/github.png'
+import gfg from '../../assets/gfg.png'
 
 export const Contact = () => {
   return (
@@ -26,6 +27,10 @@ export const Contact = () => {
       <li className={styles.link}>
         <img src={github} alt="Github icon" />
         <a href="https://www.github.com/anjwsm">github.com/anjwsm</a>
+      </li>
+      <li className={styles.link}>
+        <img src={gfg} alt="Gfg icon" />
+        <a href="https://www.geeksforgeeks.org/user/anjwsm">geeksforgeeks.org/user/anjwsm</a>
       </li>
     </ul>
   </footer>

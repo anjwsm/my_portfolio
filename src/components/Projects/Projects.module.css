@@ -5,6 +5,7 @@
   color: var(--color-text);
   margin-left: 10%;
   margin-right: 10%;
+  padding: 15px;
 }
 
 .title {
@@ -15,12 +16,12 @@
 }
 
 .projects {
-  margin-top: 37px;
+  margin-top: 40px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 25px;
+  gap: 30px;
   width: 100%;
 }
