@@ -14,7 +14,7 @@ export const Navbar = () => {
        <img  className={styles.menuBtn} src= {menuOpen? close : dropdown } alt='menu-button' onClick={()=> setMenuOpen(!menuOpen)}/>
         <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`} onClick={() => setMenuOpen(false)}>
             <li>
-                <a href="#about">About</a>
+                <a href="#about"  >About</a>
             </li>
             <li>
                 <a href="#skills">Skills</a>
