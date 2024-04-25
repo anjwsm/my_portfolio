@@ -3,9 +3,17 @@ import htmleditor from "../assets/htmleditor.png"
 import todolist from "../assets/todolist.png"
 import movie from "../assets/movie.png"
 import agecalculator from "../assets/agecalculator.png"
+import youtube from "../assets/youtube.png"
 
 
 const projects = [
+    {
+        "title" : "You Tube Clone" ,
+        "imageSrc" : youtube ,
+        "description" : "Built my very own YouTube clone using React JS and integrating it with Google API services. " ,
+        "skills" : ["ReactJS" , "CSS" , "JSX"] ,
+        "source" : "https://github.com/anjwsm/YouTube_Clone"
+    },
     {
         "title" : "Weather App" ,
         "imageSrc" : weatherapp ,
