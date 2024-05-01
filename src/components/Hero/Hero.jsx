@@ -1,6 +1,7 @@
 import React from 'react' ;
 import styles from "./Hero.module.css" ;
-import headergirl from "../../assets/headergirl.png"
+import headergirl from "../../assets/headergirl.png" ;
+import resume from "../../assets/My_Resume_Updated.pdf" ;
 
 export const Hero = () => {
   return (
@@ -10,7 +11,8 @@ export const Hero = () => {
             <p className={styles.description}>
                 I am a UI/UX Designer and a Frontend Developer. With a keen eye for detail and a passion for clean, intuitive design, I specialize in transforming complex ideas into seamless, visually stunning interfaces.
             </p>
-            <a href='mailto:anjalikushwahawsm@gmail.com' className={styles.contactBtn}>Contact Me</a>
+            {/* <a href='mailto:anjalikushwahawsm@gmail.com' className={styles.contactBtn}>Contact Me</a> */}
+            <a href= {resume} target="_blank"  className={styles.contactBtn} >MY RESUME </a>
         </div>
         <img src={headergirl} alt='Hero image of me' className={styles.heroImg}/>
          <div className={styles.topBlur}/>

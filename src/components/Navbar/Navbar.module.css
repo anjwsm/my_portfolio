@@ -37,10 +37,15 @@
    
 }
 
-.menuItems a:hover{
+/* .menuItems a:hover{
     text-decoration: underline ;
 
+} */
+.menuItems .active{
+    padding-bottom:  2px;
+    border-bottom: 3px solid white;
 }
+
 
 @media screen and (max-width: 830px){
     .navbar{
@@ -65,8 +70,8 @@
     .menuBtn {
         display: block;
         cursor: pointer;
-        width: 35px;
-        height: 30px;
+        width: 25px;
+        /* height: 25px; */
     }
     .menuItems{
         display: none; 

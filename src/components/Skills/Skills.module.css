@@ -36,6 +36,7 @@
     gap: 11px;
 }
 
+
 .languageImageContainer {
     background-color: var(--color-secondary);
     border-radius: 100%;
@@ -43,7 +44,11 @@
     align-items: center;
     justify-content: center;
     width: 120px;
-    height: 120px;
+    height: 120px;                                                                                                                                                                                                                                                                                                                                                                                              
+}
+
+.languageImageContainer:hover{
+    background-color: rgb(183, 183, 194);
 }
 .languageImageContainer img{
     width: 75px;
